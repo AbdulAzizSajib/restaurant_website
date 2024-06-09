@@ -51,9 +51,13 @@ const FoodCard = ({ item }) => {
     }
   };
   return (
-    <div className="card glass ">
+    <div className="p-4 card glass ">
       <figure>
-        <img className="w-full" src={image} alt={image} />
+        <img
+          className=" w-[600px] h-[300px] object-cover "
+          src={image}
+          alt={image}
+        />
       </figure>
       <div className="card-body">
         <h2 className="card-title">{name}</h2>

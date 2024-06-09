@@ -5,7 +5,7 @@ const ChefMenu = ({ item }) => {
       <div className=" w-96 card glass">
         <figure>
           <img
-            className="object-cover p-3 rounded-3xl"
+            className="object-cover w-[500px] h-[300px] p-3 rounded-3xl"
             src={image}
             alt="car!"
           />
